@@ -3,7 +3,7 @@ let submit = document.querySelector("#button");
 let statusIndicator = document.querySelector("#weatherStatus")
 
 let APIURL = "http://api.weatherapi.com/v1/current.json";
-let apiKey = "f8500184ef0a4655be611608212707";
+let apiKey = "not the real key";
 
 submit.addEventListener("click", function() {
     fetch(`${APIURL}?key=${apiKey}&q=${userLocation.value}&aqi=no`)
