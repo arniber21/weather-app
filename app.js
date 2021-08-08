@@ -5,7 +5,7 @@ let cardGroup = document.querySelector("#cardContainer");
 let alertGroup = document.querySelector("#alertGroup");
 let purge = document.querySelector("#purge");
 
-let APIURL = "http://api.weatherapi.com/v1/current.json";
+let APIURL = "https://api.weatherapi.com/v1/current.json";
 let apiKey = "insert api key here";
 
 const createAlert = () => {
